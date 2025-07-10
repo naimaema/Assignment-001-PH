@@ -54,7 +54,7 @@ body{
 }
 button:hover{
     background-color: black;
-    color: whitesmoke;
+    color: beige;
     box-shadow: 0.5px 0.5px 10px 2px rgb(0, 0, 0,0.5);
     transform: scale(1.1);
 }
