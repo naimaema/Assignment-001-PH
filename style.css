@@ -6,6 +6,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
+  font-size: x-large;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -34,17 +35,10 @@
     background-color: #4E47FF;
     color: white;
     font-size: 10px;
-    padding: 10px 20px;
+    padding: 8px 20px;
     margin-top: 20px;
 }
-.center-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;    
-  padding-top: 158px;
-  padding-bottom: 200px;  
-}
+
 .color-blue{
     color: #4E47FF;
 }
@@ -65,9 +59,38 @@ button:hover{
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px 0 200px;
+    padding: 30px 100px 0 100px;
 }
 .nav-title{
     color: #4E47FF;
-    font-weight: bold;
+}
+header h1{
+    font-size: 40px;
+}
+/*banner style*/
+.banner-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  padding-top: 158px;
+  padding-bottom: 200px;  
+}
+
+/*section-1 style*/
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-1-heading{
+    margin-bottom: 10px;
+}
+.section-1-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+img{
+    border: none;
+    border-radius: 50px;
+    margin: 20px 0 20px 0;
 }
