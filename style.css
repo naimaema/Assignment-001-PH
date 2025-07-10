@@ -18,6 +18,14 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    background-color: aliceblue;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*shared styles*/
 .btn-primary{
@@ -26,7 +34,9 @@
     background-color: #4E47FF;
     color: white;
     font-size: 9px;
+    font-weight: bold;
     padding: 0 20px;
+    
 }
 .btn-secondary{
     border: none;
@@ -34,6 +44,7 @@
     background-color: #4E47FF;
     color: white;
     font-size: 10px;
+    font-weight: bold;
     padding: 8px 20px;
     margin-top: 20px;
 }
@@ -54,11 +65,16 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 30px 100px 0 100px;
+    margin: 0 auto;
+    padding: 30px 140px 0 160px;
 }
 .nav-title{
     color: #4E47FF;
@@ -83,9 +99,11 @@ header h1{
 /*section-1 style*/
 .section-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin: 100px auto;
+    padding: 0 0px 0 50px;
+   
 }
 .section-1-heading{
     margin-bottom: 10px;
@@ -93,13 +111,14 @@ header h1{
 .section-1-description{
     color: rgba(0, 0, 0, 0.5);
 }
-img{
+.wc-mini-img{
     border: none;
     border-radius: 50px;
-    margin: 20px 0 20px 0;
+    width: 300px;
+    margin: 20px 50px 20px 0;
 }
 
-/*section-2-status*/
+/*section-2 styles*/
 
 .section-2-status{
     background-color: #e6e6f2;
@@ -107,9 +126,9 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 650px;
-    margin: 100px auto 100px auto;
-    padding: 30px 0px 0px 0;
+    width: 700px;
+    margin: 100px 50px;
+    padding: 30px 0 0 0;
     border: none;
     border-radius: 10px;
 }
@@ -130,8 +149,94 @@ img{
 }
 .status-comment{
     font-size: 12px;
-    color:  rgba(0, 0, 0, 0.5);;
+    color:  rgba(0, 0, 0, 0.5);
 }
+/*section-4 styles*/
+.section-4{
+    background-color: white;
+    width: 700px;
+    margin: 100px auto;
+    padding: 50px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+}
+.quote{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+
+}
+.wc-big-img{
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.section-4 button{
+    font-weight: normal;
+}
+
+/*section-5 styles*/
+.section-5-contact{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    margin: 150px 40px 150px 50px;
+    padding: 0;
+}
+.section-5-contact h1{
+    font-size: 60px;
+}
+.form-label{
+    color: black;
+    font-size: 12px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border: 1px solid rgb(218, 228, 228);
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+input::placeholder{
+    font-size: 15px;
+    padding-left: 15px;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    border: 1px solid rgb(218, 228, 228);
+    border-radius: 6px;
+    margin-top: 5px;
+    resize: none;
+}
+textarea::placeholder{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+form div button{
+    width: 300px;
+    height: 33px;
+}
+
+
+
 
 
 
